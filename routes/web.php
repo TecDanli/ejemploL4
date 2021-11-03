@@ -20,4 +20,4 @@ Route::get('/', function () {
 
 
 Route::get('/saludo',  [SaludoController::class, 'escribirSaludo']); /* Version 8*/
-Route::get('/saludo',  'SaludoController@escribirSaludo'); /* Versiones previas */
+
